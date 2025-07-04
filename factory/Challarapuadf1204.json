@@ -1,0 +1,17 @@
+{
+	"name": "Challarapuadf1204",
+	"properties": {
+		"globalParameters": {
+			"gwait": {
+				"type": "int",
+				"value": 5
+			}
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "e129be08-3369-46f9-8aa8-42e6fddd9cbf",
+		"tenantId": "8781507e-40a3-467f-9221-7c57f7bd2eb2"
+	}
+}
