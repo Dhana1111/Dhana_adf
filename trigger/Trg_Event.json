@@ -1,0 +1,25 @@
+{
+	"name": "Trg_Event",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline3",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/bloba/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/5741f5aa-9921-40e8-b3a5-b0cabcb08a3d/resourceGroups/DHANA/providers/Microsoft.Storage/storageAccounts/policeblob",
+			"events": [
+				"Microsoft.Storage.BlobCreated",
+				"Microsoft.Storage.BlobDeleted"
+			]
+		}
+	}
+}
