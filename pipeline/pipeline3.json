@@ -1,0 +1,30 @@
+{
+	"name": "pipeline3",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 1
+				}
+			}
+		],
+		"concurrency": 1,
+		"parameters": {
+			"Dhana": {
+				"type": "string",
+				"defaultValue": "12"
+			}
+		},
+		"variables": {
+			"Dhana": {
+				"type": "String",
+				"defaultValue": "13"
+			}
+		},
+		"annotations": []
+	}
+}
