@@ -3,17 +3,17 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "CngValForVaraible",
+				"name": "Append variable1",
 				"description": "testing ",
-				"type": "SetVariable",
+				"type": "AppendVariable",
 				"dependsOn": [],
-				"policy": {
-					"secureOutput": false,
-					"secureInput": false
-				},
+				"userProperties": [],
 				"typeProperties": {
-					"variableName": "vstng",
-					"value": "'testing'"
+					"variableName": "varray",
+					"value": {
+						"value": "@pipeline().globalParameters.gwait",
+						"type": "Expression"
+					}
 				}
 			}
 		],
@@ -33,6 +33,10 @@
 				"type": "Array"
 			},
 			"vstng": {
+				"type": "String",
+				"defaultValue": "7"
+			},
+			"vstring": {
 				"type": "String"
 			}
 		},
