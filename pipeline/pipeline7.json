@@ -1,0 +1,41 @@
+{
+	"name": "pipeline7",
+	"properties": {
+		"activities": [
+			{
+				"name": "CngValForVaraible",
+				"description": "testing ",
+				"type": "SetVariable",
+				"dependsOn": [],
+				"policy": {
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"typeProperties": {
+					"variableName": "vstng",
+					"value": "'testing'"
+				}
+			}
+		],
+		"concurrency": 7,
+		"parameters": {
+			"vstring": {
+				"type": "string",
+				"defaultValue": "12"
+			}
+		},
+		"variables": {
+			"var": {
+				"type": "String",
+				"defaultValue": "12"
+			},
+			"varray": {
+				"type": "Array"
+			},
+			"vstng": {
+				"type": "String"
+			}
+		},
+		"annotations": []
+	}
+}
