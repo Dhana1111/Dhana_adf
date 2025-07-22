@@ -1,0 +1,29 @@
+{
+	"name": "PL1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Wait1",
+				"type": "Wait",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"waitTimeInSeconds": 10
+				}
+			}
+		],
+		"parameters": {
+			"Nani": {
+				"type": "string",
+				"defaultValue": "12"
+			}
+		},
+		"variables": {
+			"var": {
+				"type": "Integer",
+				"defaultValue": 12
+			}
+		},
+		"annotations": []
+	}
+}
