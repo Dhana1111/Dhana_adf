@@ -1,0 +1,12 @@
+{
+	"name": "Challarapuadf1204",
+	"properties": {
+		"globalParameters": {
+			"wait_time": {
+				"type": "int",
+				"value": 10
+			}
+		}
+	},
+	"location": "centralindia"
+}
